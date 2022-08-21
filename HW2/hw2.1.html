@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="./index.html">Повернутись до HW2</a>
+    <form action="mailto:erikamelai@gmail.com" enctype="text/plain">
+      <h1 align="center">Форма реєстрації користувача</h1>
+      <fieldset>
+        <legend><strong>Про себе:</strong></legend>
+        <label>ПІП<input type="text" style="margin-top: 5px" /></label><br />
+        <label>Адреса<input type="text" style="margin-top: 5px" /></label><br />
+        <label
+          >Вік<input
+            type="number"
+            min="16"
+            max="60"
+            style="margin-top: 5px" /></label
+        ><br />
+        <label
+          >Електронна пошта<input type="email" style="margin-top: 5px" /></label
+        ><br />
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Місце роботи:</strong></legend>
+        <label
+          >Адреса організації<input
+            type="text"
+            style="margin-top: 5px" /></label
+        ><br />
+        <label
+          >Стаж роботи<input
+            type="number"
+            min="0"
+            style="margin-top: 5px" /></label
+        ><br />
+        <label
+          >Дата початку роботи<input type="date" style="margin-top: 5px"
+        /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Статистичний опитувальник</strong></legend>
+        <label
+          >Як оцінюєте роботу президента?<input
+            type="range"
+            min="0"
+            max="100"
+            style="margin-top: 5px" /></label
+        ><br />
+        <label
+          >Коментар стосовно останніх виборів <br />
+          <textarea
+            name="A comment on the recent elections"
+            cols="40"
+            rows="4"
+            placeholder="Введіть Ваш текст"
+          ></textarea>
+        </label>
+        <br />
+        <label
+          >Найкращий місяць для відпустки
+          <select>
+            <option>січень</option>
+            <option>лютий</option>
+            <option>березень</option>
+            <option>квітень</option>
+            <option>травень</option>
+            <option>червень</option>
+            <option>липень</option>
+            <option>серпень</option>
+            <option>вересень</option>
+            <option>жовтень</option>
+            <option>листопад</option>
+            <option>грудень</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Пріорітети</strong></legend>
+        <p>У виборі кави:</p>
+        <label
+          ><input
+            type="radio"
+            name="type of coffee"
+            value="arabica"
+          />Арабіка</label
+        ><label
+          ><input
+            type="radio"
+            name="type of coffee"
+            value="robusta"
+          />Робуста</label
+        >
+        <p>Улюблені місця відпочинку:</p>
+        <label>
+          <input
+            type="checkbox"
+            name="places of rest"
+            value="yes"
+          />Croatia</label
+        >
+        <br />
+        <label
+          ><input
+            type="checkbox"
+            name="places of rest"
+            value="yes"
+          />Spain</label
+        >
+        <br />
+        <label
+          ><input type="checkbox" name="places of rest" value="yes" />
+          Ireland</label
+        ><br />
+        <label
+          ><input
+            type="checkbox"
+            name="places of rest"
+            value="yes"
+          />Australia</label
+        ><br />
+        <p>
+          <label
+            >Автомобіль твоєї мрії<select>
+              <option>Tesla</option>
+              <option>BMW</option>
+              <option>Mercedes</option>
+              <option>Audi</option>
+            </select></label
+          >
+        </p>
+        <div>
+          <label
+            >Які тобі подобаються овочі
+            <select>
+              <optgroup label="помаранчеві">
+                <option>помідори</option>
+                <option>морква</option>
+              </optgroup>
+              <optgroup label="зелені">
+                <option>огірки</option>
+                <option>перець</option>
+                <option>капуста</option>
+              </optgroup>
+            </select></label
+          >
+        </div>
+      </fieldset>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
