@@ -1,0 +1,21 @@
+td {
+  text-align: left;
+  border: 1px white;
+}
+thead tr {
+  color: black;
+  font-weight: bold;
+}
+table {
+  background-color: rgb(151, 219, 250);
+  width: 400px;
+}
+tr:first-child {
+  font-weight: bold;
+}
+tbody tr:not(:first-child) {
+  background-color: white;
+  text-decoration: underline;
+  color: blue;
+  border: 3px;
+}
