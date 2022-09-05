@@ -1,0 +1,28 @@
+h2 {
+  margin-left: 100px;
+}
+ul:not(ul.main) {
+  margin-left: 40px;
+}
+.title:visited {
+  color: blue;
+}
+.red {
+  color: red;
+}
+.yellow {
+  color: rgb(243, 194, 61);
+}
+.gray {
+  color: gray;
+}
+.light_seagreen {
+  color: lightseagreen;
+}
+.main_main {
+  color: green;
+  text-align: right;
+}
+span {
+  font-size: 0.8em;
+}
